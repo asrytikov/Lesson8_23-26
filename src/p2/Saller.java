@@ -1,2 +1,7 @@
-package p2;public interface Seller {
+package p2;
+
+public interface Saller {
+
+    void sale();
+
 }

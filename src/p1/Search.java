@@ -1,2 +1,7 @@
-package p1;public interface Search {
+package p1;
+
+public interface Search {
+
+    void search();
+
 }

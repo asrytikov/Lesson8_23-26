@@ -1,6 +1,6 @@
-package dz6;
+package dz7;
 
-public class Phone {
+public abstract class Phone {
 
    private String number;
    private String model;
@@ -49,8 +49,5 @@ public class Phone {
         System.out.printf("Call %s\n", name);
     }
 
-    public void info(){
-        System.out.printf("dz6.Phone: model=%s, number=%s, weight=%.2f\n", this.getModel(), this.getNumber(), this.getWeight());
-    }
-
+    public abstract void info();
 }

@@ -1,2 +1,7 @@
-package p3;public interface Closer {
+package p3;
+
+public interface Closer {
+
+    void close();
 }
+

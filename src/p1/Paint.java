@@ -1,2 +1,7 @@
-package p1;public interface Paint {
+package p1;
+
+public interface Paint {
+
+    void paint();
+
 }

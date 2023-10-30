@@ -1,2 +1,7 @@
-package p2;public class Xerox {
+package p2;
+
+public class Xerox {
+    interface Printer{
+        void print();
+    }
 }
